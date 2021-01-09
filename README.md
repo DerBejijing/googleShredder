@@ -7,7 +7,7 @@ der Ursprüngliche Sinn nur noch schwer erkennbar ist.
 
 Vorbereitung:
 - benötigte Python Version: 3.x
-- ausführen von der Installationsdatei der benötigten Bibliotheken:
+- ausführen von der Installationsdatei zur Installation der benötigten Bibliotheken:
   - Windows:  installs.bat
   - mac OS:   installs.command
   
