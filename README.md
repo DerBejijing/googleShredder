@@ -1,7 +1,7 @@
 # googleShredder
 
 
-Dieses Programm ist so dämlich, es hat eigentlich keinen Grund überhaupt zu existieren
+Dieses Programm ist so dämlich, es hat eigentlich keinen Grund überhaupt zu existieren.
 Es nutzt Google-Translate um einen vorgegebenen Text durch einen Pfad an mehreren Sprachen zu übersetzen, bis
 der Ursprüngliche Sinn nur noch schwer erkennbar ist.
 
