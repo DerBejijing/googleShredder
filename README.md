@@ -12,8 +12,8 @@ Vorbereitung:
   - mac OS:   installs.command
   
   alternativ folgende Pakete über pip3 installieren:
-  -> pycountry
-  -> googletrans==4.0.0rc1
+  - pycountry
+  - googletrans==4.0.0rc1
  
 Nutzung:
 - entweder ausführen der entsprechenden Start-Datei, oder Aufrufen von
