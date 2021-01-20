@@ -35,14 +35,14 @@ Ja ähhh, haben Sie Spaß
 
 Hier ein kleines Beispiel was aus einem unschuldigen Rezept einer Himbeertorte wurde:
 
-120 g.
-20 Gramm Essig
-Sonkorov G85R.
-1/2 Kopie
-100 Gramm Mehl
-100 Gramm Essig
-Cmar sagt, es ist 1
-2 UFC
+120 g.\
+20 Gramm Essig\
+Sonkorov G85R.\
+1/2 Kopie\
+100 Gramm Mehl\
+100 Gramm Essig\
+Cmar sagt, es ist 1\
+2 UFC\
 1 Teelöffel Backpulver hinzufügen.
 Kapitel G00
 1 Esslöffel trockenes Öl, ein Glas Wasser
