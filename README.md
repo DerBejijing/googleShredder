@@ -43,23 +43,21 @@ Sonkorov G85R.\
 100 Gramm Essig\
 Cmar sagt, es ist 1\
 2 UFC\
-1 Teelöffel Backpulver hinzufügen.
-Kapitel G00
-1 Esslöffel trockenes Öl, ein Glas Wasser
-1 Tasse Salz
-2 EL
-Genau
-1/4 Liter Sojasauce
-1 (5050 g) oder Erdbeeren
+1 Teelöffel Backpulver hinzufügen.\
+Kapitel G00\
+1 Esslöffel trockenes Öl, ein Glas Wasser\
+1 Tasse Salz\
+2 EL\
+Genau\
+1/4 Liter Sojasauce\
+1 (5050 g) oder Erdbeeren\
 
 Sehr gut
- Ich arbeite noch
+Ich arbeite noch
 Den Teig auf ein Backblech legen und 22 Minuten bei 22 Grad backen.
-
 Beispiel für fünf Cracker: Eier, Puderzucker, Vanillezucker und Mehl hinzufügen und das ganze Jahr über 20 bis 10 Minuten backen.
 
 150 Gramm Zucker, dann 50.000 bis 11 Gramm pro Tasse.
-
 Mit einem Stock essen wir keine Blätter. Im Gegenteil, wir verwenden Baumwolle, um unsere Haare zu bedecken und Früchte zu pflücken.
 
 Gießen Sie 1 Liter seichtes Wasser, mischen Sie 2 Liter Wasser, 2 Karotten und 2 Karotten, spülen Sie gleichzeitig beide Gemüsesorten aus.
