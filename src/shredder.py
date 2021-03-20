@@ -4,7 +4,6 @@ from os import name, system
 import pycountry
 import sys
 import math
-import time
 
 path = ['']
 progress = 0
@@ -22,7 +21,7 @@ def clear():
         _ = system('clear')
 
 def trashText():
-    textToTranslate = str(InputText.get("1.0",END))
+    textToTranslate = str(InputText.get("1.0", END))
     print(path)
     for lang in path:
         try:
@@ -38,17 +37,17 @@ def trashText():
     OutputText.insert(END, textToTranslate)
     clear()
     print("[*] Progress: 100%")
-    print("[*] done!")
+    print("[*] Done!")
 
 def trashTextNormal():
-    print("[*] using normal destruction mode")
+    print("[*] Using normal destruction mode")
     global path
     path = ['ar','la','ja']
     path.append(target_language)
     trashText()
 
 def trashTextComplex():
-    print("[*] using complex destruction mode")
+    print("[*] Using complex destruction mode")
     global path
     path = ['']
     try:
@@ -84,7 +83,7 @@ def setTargetLang(language):
     print("[*] Target language changed to: " + language)
 
 def help():
-    print("[*] Helping")
+    print("[*] Me helping")
 
 tr = Translator()
 print("[*] Starting")
@@ -97,15 +96,15 @@ window.config(menu=menu)
 window.resizable(False, False)
 
 editMenu = Menu(menu)
-menu.add_cascade(label="edit", menu=editMenu)
+menu.add_cascade(label="Edit", menu=editMenu)
 
-editMenu.add_command(label="clear fields", command=clearAll)
-editMenu.add_command(label="help...", command=help)
+editMenu.add_command(label="Clear fields", command=clearAll)
+editMenu.add_command(label="Help...", command=help)
 editMenu.add_separator()
-editMenu.add_command(label="quit", command=quitProgramm)
+editMenu.add_command(label="Quit", command=quitProgramm)
 
 targetMenu = Menu(menu)
-menu.add_cascade(label="target language", menu=targetMenu)
+menu.add_cascade(label="Target language", menu=targetMenu)
 
 targetMenu.add_command(label="English (en)", command= lambda: setTargetLang("en"))
 targetMenu.add_command(label="Deutsch (de)", command= lambda: setTargetLang("de"))
