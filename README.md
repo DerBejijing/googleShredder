@@ -2,7 +2,7 @@
 
 Well this script is so dumb, actually it has no real purpose but *"entertaining"*.  
 You insert a text, and it will use **google translate** to translate it through multiple languages to generate absolutely ridiculous texts. Here is how it works:  
-Take the sentence, and translate it to eg. French. Then take that French and translate it to, let's say, Italian. And because of google translates skilled translation algorithms, and misinterpretations of some texts, very soon the text is destructed.  
+it takes the sentence, and translates it to eg. French. Then it takes that French sentence and translates it to, let's say, Italian. And because of google translates skilled translation algorithms, and misinterpretations of some texts, very soon the text is destructed.  
 
 **Installation**  
 Info: You will need python3 and pip3 installed on you system.  
