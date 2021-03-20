@@ -1,63 +1,31 @@
 # googleShredder
 
+Well this script is so dumb, actually it has no real purpose but *"entertaining"*.  
+You insert a text, and it will use **google translate** to translate it through multiple languages to generate absolutely ridiculous texts. Here is how it works:  
+Take the sentence, and translate it to eg. French. Then take that French and translate it to, let's say, Italian. And because of google translates skilled translation algorithms, and misinterpretations of some texts, very soon the text is destructed.  
 
-Dieses Programm ist so dämlich, es hat eigentlich keinen Grund überhaupt zu existieren.
-Es nutzt Google-Translate um einen vorgegebenen Text durch einen Pfad an mehreren Sprachen zu übersetzen, bis
-der Ursprüngliche Sinn nur noch schwer erkennbar ist.
+**Installation**  
+Info: You will need python3 and pip3 installed on you system.  
 
-Vorbereitung:
-- benötigte Python Version: 3.x
-- ausführen von der Installationsdatei zur Installation der benötigten Bibliotheken:
-  - Windows:  installs.bat
-  - mac OS:   installs.command
-  
-  alternativ folgende Pakete über pip3 installieren:
-  - pycountry
-  - googletrans==4.0.0rc1
- 
-Nutzung:
-- entweder ausführen der entsprechenden Start-Datei, oder Aufrufen von
-  python3 <path>/src/shredder.py
-  
-- In der sich öffnenden Oberfläche befindet sich ein Input-Feld (oben).
-  Dort geben Sie einen Text ihrer Wahl ein und klicken anschließend entweder auf
-  "Text Schrotten" oder "Text komplex Schrotten".
-  Der Text wird nun entweder durch einen festgelegten Pfad an Sprachen übersetzt oder durch alle bei
-  google verfügbaren.
-  Im terminal können Sie den aktuellen Fortschritt überwachen.
-  
-- nach einiger Zeit (abängig von Datendurchsatz der Internetverbindung) erscheint Ihr
-  neuer Text im Terminal
-  
-  
-Ja ähhh, haben Sie Spaß
+You can either use `git clone https://github.com/DerBejijing/googleshredder` or download it as a zip.  
+Next, you install the dependencies by running    
+  - `installs.command` on linux / macOS  
+  - `installs.bat` on windows  
+
+After that you run the matching run file. Same here,  
+  - `run.command` on linux / macOS  
+  - `run.bat` on windows  
+
+**How to use**  
+Once you started the script a orange window will open. Insert a text of you choice in the upper field (also consider trying out a few random characters, very fun) and select your target language in the menubar. Next click on the cascade "Destruct" and choose between normal and complex mode. Complex mode takes a lot longer and you won't be able to recognize the original text again. But just try and see.  
+
+**Good to know**  
+  - Since the translation and the window handler are running in the same thread, during translation you will not be able to interact with the window. This will be changed in future versions. But to see if the programm is actually running, you can view its current status in the console.  
+  - The time for a text to translate depends on your internet connection and the text length.  
 
 
-Hier ein kleines Beispiel was aus einem unschuldigen Rezept einer Himbeertorte wurde:
+**What you are (not) allowed to do**  
+You are allowed to use, share and review this programm, as long as I am mentioned as the creator.  
+You are allowed to modify the programm or use it in you own project, as long as I am mentioned as the original creator.  
 
-120 g.\
-20 Gramm Essig\
-Sonkorov G85R.\
-1/2 Kopie\
-100 Gramm Mehl\
-100 Gramm Essig\
-Cmar sagt, es ist 1\
-2 UFC\
-1 Teelöffel Backpulver hinzufügen.\
-Kapitel G00\
-1 Esslöffel trockenes Öl, ein Glas Wasser\
-1 Tasse Salz\
-2 EL\
-Genau\
-1/4 Liter Sojasauce\
-1 (5050 g) oder Erdbeeren\
-
-Sehr gut
-Ich arbeite noch
-Den Teig auf ein Backblech legen und 22 Minuten bei 22 Grad backen.
-Beispiel für fünf Cracker: Eier, Puderzucker, Vanillezucker und Mehl hinzufügen und das ganze Jahr über 20 bis 10 Minuten backen.
-
-150 Gramm Zucker, dann 50.000 bis 11 Gramm pro Tasse.
-Mit einem Stock essen wir keine Blätter. Im Gegenteil, wir verwenden Baumwolle, um unsere Haare zu bedecken und Früchte zu pflücken.
-
-Gießen Sie 1 Liter seichtes Wasser, mischen Sie 2 Liter Wasser, 2 Karotten und 2 Karotten, spülen Sie gleichzeitig beide Gemüsesorten aus.
+You are not allowed to use the programm for commercial purpose, except for reviews, eg. on YouTube.
