@@ -6,6 +6,7 @@ it takes the sentence, and translates it to eg. French. Then it takes that Frenc
 
 **Installation**  
 Info: You will need python3 and pip3 installed on you system.  
+Info #2: Since on linux tkinter is not installed by default, the installer will try to apt-get it and therefor need superuser.  
 
 You can either use `git clone https://github.com/DerBejijing/googleshredder` or download it as a zip.  
 Next, you install the dependencies by running    
