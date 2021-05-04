@@ -1,6 +1,8 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 
+sudo apt-get install python3-tk
+
 pip3 install pycountry
 
 pip3 uninstall googletrans
