@@ -1,2 +1,2 @@
-python src/shredder.py
+python3 src/shredder.py
 pause
