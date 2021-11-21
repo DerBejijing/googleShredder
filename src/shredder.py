@@ -26,17 +26,26 @@ def clear():
     else:
         _ = system('clear')
 
+# takes the value from the input field and translates it through all languages in the "path" array
+# if a language is unsupported it gets skipped
 def trashText():
+    # get input-field value
     textToTranslate = str(InputText.get("1.0", END))
-    print(path)
+    
+    # iterate through path-array
     for lang in path:
         try:
+            # translate the text
             text = tr.translate(textToTranslate, dest=lang)
             textToTranslate = text.text
         except Exception as e:
+            # pass if language is not available or invalid
             pass
 
+        # clear console window
         clear()
+        
+        # update progress-indicator
         print("[*] Progress: " + str(progressBar(path.index(lang))) + "%")
 
     clearOut()
