@@ -95,16 +95,21 @@ def trashTextComplex():
     except Exception as e:
         pass
 
+    # append target language and start translating
     path.append(target_language)
     trashText()
 
+# clear the output field by deleting all characters
 def clearOut():
     OutputText.delete("1.0", END)
 
+# clear both fields by deleting all characters
 def clearAll():
     OutputText.delete("1.0", END)
     InputText.delete("1.0", END)
 
+# quit the program
+# misspelled and dumb
 def quitProgramm():
     sys.exit(0)
 
