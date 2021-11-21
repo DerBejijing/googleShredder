@@ -5,15 +5,21 @@ import pycountry
 import sys
 import math
 
+# Came back to comment my many years-old beginner code.. what a pain to read...
+# this is about to be recreated from the ground up
+
 path = ['']
 progress = 0
 target_language = 'de'
 
+# calculates a percentage value to indicate the progress of the translation process
 def progressBar(currentPosition):
-    global progress
     totalItems = len(path)
     return math.floor(((currentPosition) / totalItems) * 100)
 
+# clears the console window by running the platform-specific command
+# cls for windows
+# clear for mac / Linux
 def clear():
     if name == 'nt':
         _ = system('cls')
