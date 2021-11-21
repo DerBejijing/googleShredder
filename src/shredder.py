@@ -13,6 +13,7 @@ progress = 0
 target_language = 'de'
 
 # calculates a percentage value to indicate the progress of the translation process
+# very misleading, it does not even display a progress-bar
 def progressBar(currentPosition):
     totalItems = len(path)
     return math.floor(((currentPosition) / totalItems) * 100)
@@ -48,30 +49,46 @@ def trashText():
         # update progress-indicator
         print("[*] Progress: " + str(progressBar(path.index(lang))) + "%")
 
+    # clear the output field and insert final text
     clearOut()
     OutputText.insert(END, textToTranslate)
+    
+    # clear console window and print some text
     clear()
     print("[*] Progress: 100%")
     print("[*] Done!")
 
+    
+# generate a path with four languages and start translating
+# uses "ar", "la", "ja" and the final language
 def trashTextNormal():
     print("[*] Using normal destruction mode")
     global path
     path = ['ar','la','ja']
     path.append(target_language)
+    
+    # start translating
     trashText()
 
+# generate a complex path using all languages and start translating
+# appends the final language and removes the first occurence of it
+# that is because of the stupid way I used to calculate the progress
 def trashTextComplex():
     print("[*] Using complex destruction mode")
     global path
     path = ['']
     try:
+        # iterate over all available languages pycountry offers and append their ISO 3166-1 alpha-2 code
+        # the actual google-translate website uses other codes. Thus, I don't even know whether or not this works
+        # once again, about to be remade
         for country in pycountry.countries:
             path.append(str.lower(country.alpha_2))
     except Exception as e:
         raise
 
     print("[*] Path generated!")
+    
+    # remove duplicates
     path = list(dict.fromkeys(path))
     try:
         path.remove(target_language)
