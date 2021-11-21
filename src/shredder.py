@@ -113,18 +113,22 @@ def clearAll():
 def quitProgramm():
     sys.exit(0)
 
+# change the text of the output-language label
 def setTargetLang(language):
     global target_language
     target_language = language
     OutputLabel.config(text="Output (" + language + "):")
     print("[*] Target language changed to: " + language)
 
+# prints help
 def help():
-    print("[*] Me helping")
+    print("[*] README.md: github.com/DerBejijing/googleShredder")
 
+# create a Translator-instance
 tr = Translator()
 print("[*] Starting")
 
+# create the window and all items
 window = Tk()
 menu = Menu(window)
 window.title("Enhance your understanding of grammar")
@@ -165,4 +169,5 @@ OutputText.grid(row=4,column=0)
 nothing = Label(window, text="\n\n\n", bg="orange red", fg="orange red").grid(row=5,column=0)
 quitButton = Button(window, text="Exit", bg="red", fg="black", command=quitProgramm).grid(row=6,column=0)
 
+# run until terminated
 window.mainloop()
