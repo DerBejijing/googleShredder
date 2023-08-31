@@ -24,7 +24,3 @@ Once you started the script a orange window will open. Insert a text of you choi
   - Since the translation and the window handler are running in the same thread, during translation you will not be able to interact with the window. This will be changed in future versions. But to see if the programm is actually running, you can view its current status in the console.  
   - The time for a text to translate depends on your internet connection and the text length.  
 
-
-**What you are (not) allowed to do**  
-You are allowed to use, share and review this programm, as long as I am mentioned as the creator.  
-You are allowed to modify the programm or use it in you own project, as long as I am mentioned as the original creator.  
